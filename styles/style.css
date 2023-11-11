@@ -1,0 +1,83 @@
+:root {
+    --success-color: #08971A;
+    --failure-color: #A80808;
+    --text-font:'Lato', sans-serif;
+}
+
+.game-container {
+    height: 970px;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.game-header {
+    margin-bottom: 0px;
+    font-size: 2em;
+    font-family: var(--text-font);
+    font-weight: 300;
+    font-style: light;
+}
+.game-instruction {
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-style: normal;
+}
+.game-result {
+    margin: 0;
+    font-size: 1.5em;
+    margin: 8px;
+    color: var(--success-color);
+    display: none;
+    text-align: center;
+}
+.game-input {
+    border: none;
+    outline: none;
+    cursor: text;
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #F2F2F2;
+    
+}
+
+.game-result {
+    font-family: var(--text-font);
+    font-size: 2em;
+    margin-bottom: -5px;
+
+}
+.btn-container {
+    margin-top: 8px;
+}
+
+.btn-container button {
+    width: 90px;
+    height: 30px;
+    font-family: var(--text-font);
+    cursor: pointer;
+    border-radius: 6px;
+    color: #000;
+    margin: 8px;
+}
+.btn-container .btn-guess {
+    background-color: #000;
+    color: #fff;
+}
+.btn-container button:hover{
+ background-color: #c7c7c7;
+ color: #000;
+}
+
+
+
